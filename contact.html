@@ -3,54 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Name - Second Semester</title>
+  <title>Contact form</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="first-semester.html">First Semester</a></li>
-      <li><a href="second-semester.html">Second Semester</a></li>
-      <li><a href="about.html">About</a></li>
-      <li class="active"><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-  <section>
-    <h2>Plan (Sep 4)</h2>
-    <p>Plan</p>
-    <p>Presentation</p>
-  </section>
-  <section>
-    <h2>Milestone 4 (Sep 30)</h2>
-    <ul>
-      <li>Presentation</li>
-      <li>Progress Evaluation</li>
-    </ul>
-  </section>
-  <section>
-    <h2>Milestone 5 (Oct 28)</h2>
-    <ul>
-      <li>Poster</li>
-      <li>E-book page</li>
-      <li>Presentation</li>
-      <li>Progress Evaluation</li>
-    </ul>
-  </section>
-  <section>
-    <h2>Milestone 6 (Nov 25)</h2>
-    <ul>
-      <li>User and/or Developer Manual</li>
-      <li>Demo Video</li>
-      <li>Presentation</li>
-      <li>Progress Evaluation</li>
-    </ul>
-  </section>
-</main>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="first-semester.html">First Semester</a></li>
+        <li><a href="second-semester.html">Second Semester</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main class="con">
+    <div class="contact-container">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <div class="contact-left-title">
+          <h3>Get in touch</h3>
+
+        </div>
+
+        <input type="hidden" name="access_key" value="def31eac-3330-4474-bab2-4a56d1b09f06">
+        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+        <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+        <button type="submit">Submit <img src="images/arrow_icon.png" alt="arrow"></button>
+
+      </form>
+      <div class="contact-right">
+
+      </div>
+    </div>
+
+
+
+  </main>
+
+
+
 <footer>
+
   <p>&copy; 2024 PocketCoach. All rights reserved.</p>
 </footer>
 </body>
