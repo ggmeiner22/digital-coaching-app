@@ -239,6 +239,16 @@ h2 {
   gap: 80px; 
 }
 
+.extended-button-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  gap: 80px;
+}
+
 .plan-button {
   padding: 25px 50px; 
   list-style-type: none;
