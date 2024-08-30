@@ -110,7 +110,7 @@ nav ul li.active {
 
 .image-screen .logo {
   width: 50%;
-  max-height: 500px;
+  height: auto;
   position: absolute; /* Corrected from 'display' to 'position' */
   animation: flipX 10s infinite; /* Animation duration and loop */
   top: 5%;
@@ -183,7 +183,7 @@ nav ul li.active {
   margin-right: 50px;
 }
 
-.image-item p {
+.image-item p, a {
     font-size: 18px;
 }
 
@@ -195,7 +195,6 @@ nav ul li.active {
 
 main {
     font-size: 20px;
-    margin-bottom: 120px;
 }
 
 .con {
@@ -218,7 +217,16 @@ h2 {
     margin: 0px;
     color: white;
     padding: 30px;
+    margin-bottom: 20px;
 
+}
+
+.about h2 {
+  background-color:#333;
+    text-align: center;
+    margin: 0px;
+    color: white;
+    padding: 30px;
 }
 
 .button-boxes {
@@ -460,5 +468,5 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    margin-top: auto;
+    /* margin-top: auto; */
 }
