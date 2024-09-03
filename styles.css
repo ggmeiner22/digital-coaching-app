@@ -243,8 +243,9 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap; /* This allows items to wrap to the next line */
   width: 100%;
-  max-width: 1800px;
+  max-width: 1000px;
   margin: 0 auto;
   gap: 80px;
 }
@@ -273,7 +274,7 @@ h2 {
 
 
 .card {
-  width: 500px;
+  width: 400px;
   border: 1px solid #ddd;
   border-radius: 10px;
   overflow: hidden;
