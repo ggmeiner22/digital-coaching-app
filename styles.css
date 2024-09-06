@@ -239,6 +239,16 @@ h2 {
   gap: 80px; 
 }
 
+.plan-button-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 80px;
+}
+
 .extended-button-boxes {
   display: flex;
   justify-content: center;
