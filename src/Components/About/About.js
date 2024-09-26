@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from '../Navigation/Navigation'
-import useStyles from '../Style/Style'
+import useStyles from '../Style/Style.js'
 
 function About() {
     const classes = useStyles();
@@ -9,17 +9,11 @@ function About() {
         <div>
             <body>
             <header>
-            <nav>
-                <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="first-semester.html">First Semester</a></li>
-                <li><a href="second-semester.html">Second Semester</a></li>
-                <li class="active"><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+                <nav>
+                    <Navigation/>
+                </nav>
             </header>
-            <main class="about">
+            <main class="aboutHeading">
             <div class="image-text-container">
                 <img class="image-1" src="images/s.png" alt="Field"/>
                 <div class="text-content">

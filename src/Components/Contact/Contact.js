@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Navigation from '../Navigation/ Navigation';
-import useStyles from '../Style/Style';
+import Navigation from '../Navigation/Navigation';
+import useStyles from '../Style/Style.js';
 
 function Contact() {
     const classes = useStyles();
@@ -10,13 +10,7 @@ function Contact() {
             <body>
                 <header>
                     <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="first-semester.html">First Semester</a></li>
-                        <li><a href="second-semester.html">Second Semester</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li class="active"><a href="contact.html">Contact</a></li>
-                    </ul>
+                        <Navigation/>
                     </nav>
                 </header>
                 <main class="con">
